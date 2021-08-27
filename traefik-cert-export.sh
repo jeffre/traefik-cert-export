@@ -147,8 +147,6 @@ for d in "${domains[@]}"; do
     fi
   fi
 
-  filterdomain="${FILTER}"' | select(.domain.main=="'"${d}"'")'
-
   # Export certificate and key
   exportcert "${d}" certificate
   exportcert "${d}" key
