@@ -13,7 +13,7 @@ OUTPUTDIR="./certs"
 function usage {
   sed 's;^  ;;' <<EOH
     PURPOSE:
-      Used to export TLS certs from traefik acme.json file.
+      Export TLS certs from traefik acme.json file.
 
     USAGE:
       $(basename $0) [OPTIONS] [DOMAIN, ...]
