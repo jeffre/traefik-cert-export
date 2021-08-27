@@ -16,9 +16,9 @@ function usage {
       Used to export TLS certs from traefik acme.json file.
 
     USAGE:
-      $(basename $0) (options) [DOMAIN, ...]
+      $(basename $0) [OPTIONS] [DOMAIN, ...]
     
-      If no DOMAIN is specified all domains will be exported.
+      If no DOMAINs are specified all domains will be exported.
 
     OPTIONS:
       -i JSONFILE
